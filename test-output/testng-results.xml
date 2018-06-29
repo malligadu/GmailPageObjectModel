@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33516" started-at="2018-06-29T05:14:01Z" finished-at="2018-06-29T05:14:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33516" started-at="2018-06-29T05:14:01Z" finished-at="2018-06-29T05:14:34Z">
+      <class name="com.gmai.test.GmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gmai.test.GmailTest@28d25987]" name="setUp" is-config="true" duration-ms="10397" started-at="2018-06-29T10:44:01Z" finished-at="2018-06-29T10:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gmailTest()[pri:0, instance:com.gmai.test.GmailTest@28d25987]" name="gmailTest" duration-ms="22624" started-at="2018-06-29T10:44:11Z" finished-at="2018-06-29T10:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmai.test.GmailTest@28d25987]" name="tearDown" is-config="true" duration-ms="466" started-at="2018-06-29T10:44:34Z" finished-at="2018-06-29T10:44:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gmailTest status=SUCCESS method=GmailTest.gmailTest()[pri:0, instance:com.gmai.test.GmailTest@28d25987] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gmai.test.GmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
